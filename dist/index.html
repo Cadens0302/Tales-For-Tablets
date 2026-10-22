@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f7f5ec"><meta name="description" content="A little bookshelf for big imaginations. Read, tap, and play through Johnny Builds to Mars, an interactive story from Parker & Pine.">
+<title>Parker & Pine · A little bookshelf for big imaginations</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%232c4f3c'/%3E%3Cpath d='M20 5 8 23h7l-6 8h22l-6-8h7Z' fill='%23f7f5ec'/%3E%3C/svg%3E"><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header"><a href="#library" class="brand" aria-label="Parker and Pine bookshelf"><svg viewBox="0 0 40 44" aria-hidden="true"><path d="M20 2 7 21h8L6 33h12v9h4v-9h12L25 21h8Z" fill="currentColor"/></svg><span>Parker <i>&</i> Pine<span class="brand-caption">STORIES TO GROW WITH</span></span></a><nav aria-label="Main navigation"><a href="#library" class="shelf-link"><span aria-hidden="true">▤</span> Our bookshelf</a><span class="header-note">Little readers. Big adventures.</span></nav></header>
+<main id="library">
+<section class="shelf-intro"><div><p class="eyebrow"><span class="tiny-star">✦</span> A LITTLE WONDER ON EVERY PAGE</p><h1>Big adventures.<br>Little fingertips.</h1><p class="intro-copy">Open a book. Follow your curiosity.<br>See where a little imagination can take you.</p></div><div class="intro-doodle" aria-hidden="true"><svg viewBox="0 0 200 130"><path d="M29 106Q80 120 124 65T172 28" fill="none" stroke="#9aab8a" stroke-width="2" stroke-dasharray="5 6"/><path d="m150 28 33-16-11 36-7-14Z" fill="#e8b45e" stroke="#b98137" stroke-width="1.5"/><path d="m165 34 18-22" stroke="#b98137" fill="none"/><path d="m45 35 3-10 4 10 10 3-10 4-4 10-3-10-10-4Z" fill="#da945d"/></svg><span>Adventure is just<br>a tap away.</span></div></section>
+<section class="bookshelf" aria-labelledby="shelf-title"><div class="section-heading"><h2 id="shelf-title">Your next adventure</h2><span>THE PARKER & PINE BOOKSHELF</span></div><article class="featured-book"><button id="cover-open" class="cover-art" aria-label="Open Johnny Builds to Mars"><div class="cover-label"><span>A PARKER & PINE ORIGINAL</span><h2>Johnny<br>Builds to Mars</h2><p>A small boy. A very big idea.</p></div><div id="cover-scene" class="cover-scene"></div><span class="cover-sticker">Made for<br><strong>curious minds</strong><span>✦</span></span></button><div class="book-info"><div class="book-tags"><span class="tag">SPACE & WONDER</span><span class="age-label">AGES 3–7</span></div><h2>Johnny Builds<br> to Mars</h2><p>Mars is too far away for waiting. Follow Johnny from a night sky to his backyard garage, then all the way to a very snackless landing.</p><div class="book-details"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5q5-2 9 1 4-3 9-1v15q-5-2-9 1-4-3-9-1ZM12 6v15"/></svg>10 story pages</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v5m6-3-3 4M5 5l4 4M3 12h5m10 0h3M9 13V9q0-2 2 0v5l3-2q2-1 3 1l-2 7H9l-4-5q-1-2 1-2Z"/></svg>Tap, play & explore</span></div><button id="read-book" class="primary-button">Let's read <span aria-hidden="true">↗</span></button><p class="reading-note">A story to read together, or explore on your own.</p></div></article></section>
+<div class="shelf-bottom"><p><span aria-hidden="true">✧</span> Small stories. Endless possibilities.</p><span>More adventures are growing. Stay curious!</span></div>
+</main>
+<main id="reader" hidden></main>
+<footer><span>© <span id="year"></span> Parker & Pine</span><span>Made with wonder, for little wanderers. <span class="footer-star" aria-hidden="true">✦</span></span></footer>
+<script src="app.js"></script>
+</body></html>
